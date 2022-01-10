@@ -58,7 +58,7 @@
 .top-banner{
     width: 100%;
     height: 350px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     background-image: url("images/top-banner.jpg");
 }
 .top-banner-text{
@@ -70,4 +70,29 @@
     font-family: 'Bitter', serif;
     font-size: 50px;
     color: tomato;
+}
+
+/* About me section  */
+.about-me{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.about-me h1{
+    font-family: 'Bitter', serif;
+    font-size: 24px;
+    color: tomato;
+    margin-bottom: 50px;
+}
+.about-me-box{
+    width:600px ;
+    padding: 10px;
+    box-shadow: 5px 5px 20px 5px gray;
+    border-radius: 8px;
+}
+.about-me-box p{
+    font-size: 14px;
+    width: 495px;
+    text-align: center;
+    margin: auto;
 }

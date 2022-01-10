@@ -1,0 +1,55 @@
+/* Google fonts */
+/* font-family: 'Bitter', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700;800&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* Global */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin: 5px 40px;
+    padding: 30px;
+}
+
+/* Header  */
+.nav-wrapper{    
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 10px 2px grey;
+    height: 60px;
+    align-items: center;
+    padding: 0px 15px;
+}
+.logo{
+    font-size: 30px;
+    font-family: 'Bitter', serif;
+    color: rgb(235, 36, 36);
+}
+.logo b em{
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.navigation ul{
+    display: flex;
+    justify-content: center;
+}
+.navigation ul li{
+    margin: 5px;
+    list-style: none;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.931);
+    padding: 8px 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.navigation ul li:hover a{
+    background-color: rgb(235, 36, 36);
+}

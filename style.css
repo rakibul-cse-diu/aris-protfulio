@@ -15,6 +15,18 @@
     margin: 5px 40px;
     padding: 30px;
 }
+.btn{
+    padding: 12px 24px;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: tomato;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    cursor: pointer;
+}
 
 /* Header  */
 .nav-wrapper{    
@@ -77,6 +89,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-bottom: 90px;
 }
 .about-me h1{
     font-family: 'Bitter', serif;
@@ -95,4 +108,60 @@
     width: 495px;
     text-align: center;
     margin: auto;
+}
+.about-me-box p span{
+    font-family: 'Bitter', serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: tomato;
+}
+
+/* Resume section  */
+.resume-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.side-image{
+    width: 40%;
+}
+.side-image img{
+    width: 60%;
+    border-radius: 50%;
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    text-align: center;
+}
+.title-area{
+    display: flex;
+    flex-direction: column;
+}
+.first-row, .sec-row{
+    display: flex;
+    justify-content: center;
+}
+.first-row > div, .sec-row > div{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    text-align: center;
+}
+.fas{
+    margin: auto;
+    font-size: 22px;
+    color: tomato;
+}
+.detail{
+    margin: 0 30px;
+    font-size: 13px;
+}
+.detail b{
+    font-size: 22px;
+    color: tomato;
+}
+.summary .btn{
+    margin-top: 20px;
 }

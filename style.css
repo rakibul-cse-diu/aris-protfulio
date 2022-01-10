@@ -165,3 +165,41 @@
 .summary .btn{
     margin-top: 20px;
 }
+
+/* My services */
+.services{
+    margin: 60px 0;
+}
+.services header{
+    font-family: 'Bitter', serif;
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: tomato;
+    text-align: center;
+}
+.service{
+    display: flex;
+    justify-content: space-evenly;
+}
+.web-design, .web-development{
+    padding: 20px 0;
+    display: flex;
+    width: 340px;
+    font-size: 12px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 1px 3px 20px 0px lightsalmon;
+}
+.web-design .fas, .web-development .fas{
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    padding: 8px;
+    box-shadow: 1px 1px 5px gray;
+}
+.design-detail h3, .devlopment-detail h3{
+    color: tomato;
+    margin: 10px;
+}
+.design-detail p, .devlopment-detail p{
+    margin: 0 15px;
+}

@@ -342,3 +342,14 @@ form textarea{
     outline: none;
     margin-bottom: 30px;
 }
+
+/* footer  */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 400px;
+    background-color: tomato;
+    height: 200px;
+    color: lightgray;
+}
